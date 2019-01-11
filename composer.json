@@ -1,0 +1,24 @@
+{
+    "name": "nizar/velocity-sdk",
+    "description": "composer package for velocity payment gateway sdk",
+    "keywords": ["velocity-sdk", "payment-gateway", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nizar awledOmara",
+            "email": "nizarawledomara@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Velocity\\": "src/"
+        }
+    }
+}
